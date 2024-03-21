@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Columns</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<table id="dynamicTable">
+    <thead>
+        <tr>
+            <div class="form-floating mb-3 mt-3"><th>Subject Code</th></div>
+            <div class="form-floating mb-3 mt-3"><th>Subject Name</th></div>
+            <div class="form-floating mb-3 mt-3"><th>Class Teacher</th></div>
+            <div class="form-floating mb-3 mt-3"><th>Hours Absent</th></div>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Rows will be added dynamically here -->
+    </tbody>
+</table>
+
+<button onclick="addColumn()">Add Column</button>
+
+<script>
+    function addColumn() {
+        var table = document.getElementById("dynamicTable");
+        var row = table.insertRow();
+        
+        for (let i = 0; i < 4; i++) {
+            var cell = row.insertCell(i);
+            var input = document.createElement("input");
+            input.type = "text";
+            cell.appendChild(input);
+        }
+    }
+</script>
+
+</body>
+</html>

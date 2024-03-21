@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ 
+  <title>VerBlock</title>
+ <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="">
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+<style>
+    .container {
+        background-color: #210069;
+        width: 1350px;
+  height: 900px;
+    }
+    .boxs {
+        background-color: #6082B6;
+         width: 1140px;
+  height: 600px;
+    }
+table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+       color: white;
+    }
+
+    th {
+      background-color: #6082B6;
+    }
+    .add-button, .remove-button {
+      background-color: #210069;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    .add-button:hover, .remove-button:hover {
+      background-color: #210069;
+    }
+    .button {
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #210069;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 2px;
+  padding:9px 10px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.checkbox-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        /* Optional: Add some margin or styling to checkboxes */
+        .checkbox-container input[type="checkbox"] {
+            margin-right: 20px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            column-width: 200px;
+            background-color: #3498db;
+            border-color: #3498db;
+        }
+  </style>
+
+
+<body>
+
+  <div class="hero_area">
+
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="images/hero-bg.png" alt="">
+      </div>
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <img src="C:\Users\sreej\Downloads\VERBLOCK (3).png" alt="logo" width="90" height="90">
+            
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="generate.html"> Generate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Verify</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="registration.html"> <i class="fa fa-user" aria-hidden="true"></i>Register</a>
+              </li>
+              <form class="form-inline">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <br>
+    </header>
+    
+        <center>
+          <h2 style="color:white;">EXTRA-CURRICULAR LEAVE</h2>
+  
+  
+  </center>
+    <section class="service_section layout_padding">
+    
+      <div class="container ">
+       
+
+        <div class="row">
+          <div class="col-md-12 ">
+            <div class="boxs ">
+              
+              <div class="detail-box">
+                <div class="container-fluid">
+                 <div class="row">
+                  <center>
+      
+        <input type="checkbox" id="checkbox1" name="checkbox1">
+        
+        <label for="checkbox1" style="color:white;">CO-CURRICULAR</label>
+        
+        <input type="checkbox" id="checkbox2" name="checkbox2">
+        <label for="checkbox2" style="color:white;">EXTRA-CURRICULAR</label>
+         
+         <input type="checkbox" id="checkbox2" name="checkbox2">
+        <label for="checkbox2" style="color:white;">DEPARTMENTAL ACTIVITIES(TICK ANY)</label>
+        
+    </div>
+  </div>
+ </center>  
+
+  
+</div>
+</center>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-xxl-3">
+      <div class="form-floating mb-3 mt-3">
+         <label for="email" style="color:white;">NAME OF THE EVENT</label>
+      <input type="text" class="form-control" id="email" placeholder="name of the event" name="email">
+      
+
+      
+   </div>
+ </div>
+
+     
+  </div>
+</div>
+<table id="subjectTable">
+    <thead>
+      <tr>
+        <div  style="color:white;"><th>REGISTER NUMBER</th></div>
+        <div  style="color:white;"><th>STUDENT NAME</th></div>
+        <div  style="color:white;"><th>CLASS NAME</th></div>
+        <div  style="color:white;"><th>DATE</th></div>
+        <div  style="color:white;"><th>P1</th></div>
+        <div  style="color:white;"><th>P2</th></div>
+        <div  style="color:white;"><th>P3</th></div>
+        <div  style="color:white;"><th>P4</th></div>
+        <div  style="color:white;"><th>P5</th></div>
+        <div  style="color:white;"><th>P6</th></div>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Initial row -->
+      <tr>
+        <td><input type="text" name="subjectCode[]"></td>
+        <td><input type="text" name="subjectName[]"></td>
+        <td><input type="text" name="classTeacher[]"></td>
+        <td><input type="text" name="hoursAbsent[]"></td>
+        <td><input type="checkbox" name="p1"></td>
+        <td><input type="checkbox" name="p2"></td>
+        <td><input type="checkbox" name="p3"></td>
+        <td><input type="checkbox" name="p4"></td>
+        <td><input type="checkbox" name="p5"></td>
+        <td><input type="checkbox" name="p6"></td>
+      </tr>
+    </tbody>
+  </table>
+<center>
+  <button class="add-button" onclick="addRow()">ADD ROW(+)</button>
+  <button class="remove-button" onclick="removeRow()">REMOVE ROW(-)</button>
+</center>
+  <script>
+    function addRow() {
+      var table = document.getElementById("subjectTable").getElementsByTagName('tbody')[0];
+      var newRow = table.insertRow(table.rows.length);
+
+      var columns = 10; // Number of columns
+      for (var i = 0; i < columns; i++) {
+        var cell = newRow.insertCell(i);
+        var input = document.createElement("input");
+        if (i < 4) {
+          // Text input for first 4 columns
+          input.type = "text";
+          input.name = "subjectInfo[]";
+        } else {
+          // Checkbox for remaining columns
+          input.type = "checkbox";
+          input.name = "p" + (i - 3);
+        }
+        cell.appendChild(input);
+      }
+    }
+
+    function removeRow() {
+      var table = document.getElementById("subjectTable").getElementsByTagName('tbody')[0];
+      if (table.rows.length > 1) {
+        table.deleteRow(table.rows.length - 1);
+      }
+    }
+  </script>
+  
+
+ <div class="row">
+          <div class="col-md-12 ">
+            <div class="boxs ">
+              
+              <div class="detail-box">
+                <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-xxl-3">
+      <div class="form-floating mb-3 mt-3">
+         <label for="email" style="color:white;">TOTAL NO.OF DAYS</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter number of days" name="email">
+      
+
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+   </div>
+ </div>
+      <div class="col-md-6 col-xxl-9 ">
+        <div class="form-floating mb-3 mt-3">
+          <label for="email" style="color:white;" >TOTAL NO.OF STUDENTS</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter total no.of students" name="email">
+      
+
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+   </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+ 
+
+      
+ <div class="col-md-6 col-xxl-9 ">
+        <div class="form-floating mb-3 mt-3">
+  <label for="pwd" style="color:white;">DATE OF SUBMISSION </label>
+      <input type="text" class="form-control" id="pwd" placeholder="Enter date of submission" name="pswd">
+       
+      
+     
+    </div>
+    
+
+     
+  </div>
+  <br>
+  
+   <center> <button class="button"  style= "vertical-align:middle"  href="" ><span>SUBMIT </span></button>
+  
+</center>
+ </div>
+                
+              </div>
+            </div>
+          </div>
+         
+      </div>
+    </div
+  </section>
+
+  <!-- end service section -->
+  </body>
+
+</html>
